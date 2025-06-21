@@ -36,7 +36,7 @@
 
 ## 🚀 Project Overview
 
-This project implements a Random Forest Classifier to detect fraudulent credit card transactions using an imbalanced dataset of over 284,000 records. After data cleaning, visualization, and train-test splitting, the model was trained with 1,000 estimators and evaluated using a classification report. The final model achieved an **F1-score of 0.70** and **precision of 84.3%**, successfully identifying rare fraud cases despite class imbalance.
+This project implements a Random Forest Classifier to detect fraudulent credit card transactions using an imbalanced dataset of over 284,000 records. After data cleaning, visualization, and train-test splitting, the model was trained with **100 estimators** and evaluated using a classification report. The final model achieved an **F1-score of 0.70** and **precision of 84.3%**, successfully identifying rare fraud cases despite class imbalance.
 
 <br>
 
@@ -92,7 +92,7 @@ This project implements a Random Forest Classifier to detect fraudulent credit c
 ## 🔍 Core Highlights
 
 - ⚖️ Worked with heavily imbalanced data (0.17% fraud cases)  
-- 🌲 Trained a Random Forest model with 1,000 estimators  
+- 🌲 Trained a Random Forest model with **100 estimators**  
 - 📊 Achieved **F1-score: 0.70**, **Precision: 84.3%** on test set  
 - 📉 Visualized correlation heatmap and fraud distribution  
 - 📁 Included confusion matrix and classification report for evaluation  
@@ -125,4 +125,3 @@ This project implements a Random Forest Classifier to detect fraudulent credit c
 <br>
 
 > **Detecting the undetectable — this project highlights the power of ensemble learning in uncovering rare patterns in financial fraud detection.**
-
